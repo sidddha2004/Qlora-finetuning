@@ -1,0 +1,14 @@
+MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"
+MAX_LENGTH = 256
+BATCH_SIZE = 4
+GRADIENT_ACCUMULATION_STEPS = 2
+NUM_EPOCHS = 1
+LEARNING_RATE = 2e-4
+WARMUP_STEPS = 100
+OUTPUT_DIR = "./results"
+LORA_R = 64
+LORA_ALPHA = 128
+LORA_DROPOUT = 0.05
+
+# File paths
+SAVE_DIR = "./mistral-sql-lora"
